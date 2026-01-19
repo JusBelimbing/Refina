@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jus Belimbing Refina | Minuman Sehat & Segar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Tambahan style khusus untuk tampilan manfaat agar lebih menarik */
+        .benefit-card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border-bottom: 4px solid var(--primary-color);
+        }
+        .benefit-card:hover {
+            transform: translateY(-10px);
+            background: var(--accent-color);
+        }
+        .benefit-icon {
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="belimbing.jpeg" alt="Logo Jus Belimbing Refina">
+            <h1>Jus Belimbing Refina</h1>
+        </div>
+        <nav>
+            <a href="#manfaat">Manfaat</a>
+            <a href="#produk">Produk</a>
+            <a href="#tentang">Tentang</a>
+        </nav>
+    </header>
+
+    <section class="hero" style="background: linear-gradient(rgba(227, 231, 7, 0.4), rgba(31, 203, 63, 0.5)), url('https://images.unsplash.com/photo-1622484211148-7164996914b1?q=80&w=1974&auto=format&fit=crop');">
+        <div class="hero-content">
+            <h2>Segar Setiap Hari, Alami Tanpa Pengawet</h2>
+            <p>Minuman sehat kaya nutrisi untuk menjaga kebugaran tubuh Anda setiap saat.</p>
+            <a href="#produk" class="btn-buy" style="background: var(--secondary-color); color:black; font-weight:bold; font-size: 1.1rem;">Pesan Sekarang (Pre-Order)</a>
+        </div>
+    </section>
+
+    <section id="manfaat" class="section-padding" style="background-color: #e4fae1;">
+        <h2 class="section-title">Kebaikan Untuk Tubuh Anda</h2>
+        <p style="text-align: center; margin-bottom: 40px; color: #666;">Dibuat dari belimbing lokal pilihan yang kaya akan nutrisi penting.</p>
+        
+        <div class="benefit-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; padding: 0 5%;">
+            <div class="benefit-card">
+                <span class="benefit-icon">❤️</span>
+                <h4 style="color: var(--primary-color);">Kontrol Darah</h4>
+                <p>Kandungan kalium membantu menstabilkan tekanan darah secara alami.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon">🍃</span>
+                <h4 style="color: var(--primary-color);">Detoks Alami</h4>
+                <p>Serat tinggi yang melancarkan pencernaan dan membuang racun tubuh.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon">💪</span>
+                <h4 style="color: var(--primary-color);">Sistem Imun</h4>
+                <p>Antioksidan dan Vitamin C tinggi menjaga daya tahan tubuh Anda.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon">✨</span>
+                <h4 style="color: var(--primary-color);">Rendah Kalori</h4>
+                <p>Segar dikonsumsi setiap hari tanpa khawatir kenaikan berat badan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="produk" class="section-padding" style="background-color: #f3e6ca;">
+        <h2 class="section-title">Pilih Varian Favoritmu</h2>
+        <div class="products">
+           <div class="card" style="border: 2px solid var(--primary-color);">
+                <span class="badge" style="background:#1c380a; color:rgb(240, 217, 171);">BEST SELLER</span>
+                <img src="original.jpeg" alt="Jus Belimbing Original" class="product-img">
+                <h3>Belimbing Original</h3>
+                <p class="price">250ml - Rp 8.000</p>
+                <p>Murni 100% buah belimbing pilihan tanpa tambahan pengawet.</p>
+                <a href="checkout.html?item=Original" class="btn-buy">Tambah ke Keranjang</a>
+            </div>
+
+            <div class="card" style="border: 2px solid var(--primary-color);">
+                <span class="badge" style="background:#115f10; color:rgb(240, 217, 171);">HONEY</span>
+                <img src="madu.jpeg" alt="Jus Belimbing Madu" class="product-img">
+                <h3>Belimbing + Madu</h3>
+                <p class="price">250ml - Rp 10.000</p>
+                <p>Kombinasi nutrisi buah belimbing dan manis alami madu murni.</p>
+                <a href="checkout.html?item=Madu" class="btn-buy">Tambah ke Keranjang</a>
+            </div>
+
+            <div class="card" style="border: 2px solid var(--primary-color);">
+                <span class="badge" style="background:#175c15; color:rgb(240, 217, 171);">FRESH CHOICE</span>
+                <img src="lemon.jpeg" alt="Jus Belimbing Lemon" class="product-img">
+                <h3>Belimbing + Lemon</h3>
+                <p class="price">250ml - Rp 10.000</p>
+                <p>Rasa segar yang unik dengan tambahan vitamin C dari jeruk lemon.</p>
+                <a href="checkout.html?item=Lemon" class="btn-buy">Tambah ke Keranjang</a>
+            </div>
+
+            <div class="card" style="border: 2px solid var(--primary-color);">
+                <span class="badge" style="background:#166815; color:rgb(240, 217, 171);">HEALTHY CHOICE</span>
+                <img src="tanpagula.jpeg" alt="Jus Belimbing Tanpa Gula" class="product-img">
+                <h3>Belimbing Tanpa Gula</h3>
+                <p class="price">250ml - Rp 8.000</p>
+                <p>Pilihan terbaik bagi penderita diabetes atau yang sedang diet ketat.</p>
+                <a href="checkout.html?item=TanpaGula" class="btn-buy">Tambah ke Keranjang</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="section-padding text-center">
+        <h2>Kenapa Memilih Kami?</h2>
+        <p style="max-width: 800px; margin: 0 auto;">Jus Belimbing Refina menggunakan bahan baku lokal berkualitas tinggi. Kami menerapkan sistem <strong>Pre-Order</strong> untuk memastikan setiap botol yang Anda terima adalah jus yang baru diperas (fresh).</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Jus Belimbing Refina - Model Bisnis B2C E-Commerce</p>
+        <p>Pengantaran Radius 10 km | Pembayaran: QRIS, E-Wallet, COD</p>
+    </footer>
+</body>
+</html>
